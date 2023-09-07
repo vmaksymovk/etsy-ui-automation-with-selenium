@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="etsy-ui-automation-with-selenium"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="20.511">
+  <properties />
+  
+  
+            <testcase name="searchResultPageContentNotChangedIfFilterApplicationCanceled" time="5.377" classname="pl.globallogic.etsy.features.SearchResultFilteringTest" />
+                <testcase name="filteredColorSelectionOptionShouldBeAvailableInItemDetailsView" time="2.905" classname="pl.globallogic.etsy.features.SearchResultFilteringTest" />
+                <testcase name="freeShippingTagNeedToBePresentAfterFiltering" time="2.501" classname="pl.globallogic.etsy.features.SearchResultFilteringTest" />
+                <testcase name="filteredShippingCountryShouldBePresentInShippingDestinationOptions" time="4.644" classname="pl.globallogic.etsy.features.SearchResultFilteringTest" />
+      
+</testsuite>

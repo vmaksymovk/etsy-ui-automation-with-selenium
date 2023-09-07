@@ -43,8 +43,8 @@
 	    		<span class="tooltiptextCustom">Copy Class name</span>
 			</div>
 	    </th> 
-	    <th id="testClassId">pl.globallogic.etsy.features.SearchFeatureVerificationTest</th>
-	    <th id="testClassNameId" hidden="true">SearchFeatureVerificationTest</th>
+	    <th id="testClassId">pl.globallogic.etsy.features.SearchResultFilteringTest</th>
+	    <th id="testClassNameId" hidden="true">SearchResultFilteringTest</th>
 	  </tr>
 	  <tr>
 	    <th>Suite Name : </th>
@@ -68,23 +68,23 @@
 	    		<span class="tooltiptextCustom">Copy Suite file name</span>
 			</div>
 	    </th> 
-	  	<th id="suiteXMLId">C:\Users\jakub.bujak\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml</th>
+	  	<th id="suiteXMLId">/Users/vlad/Library/Caches/JetBrains/IdeaIC2023.2/temp-testng-customsuite.xml</th>
 	  	<th id="suiteXMLNameId" hidden="true">temp-testng-customsuite.xml</th>
 	  </tr>
 	  	  <tr>
 	    <th>Total Time : </th>
 	    <th></th>
-	    <th>00:00:09</th> 
+	    <th>00:00:31</th> 
 	  </tr>
 	  <tr>
 	    <th>Total Steps : </th>
 	   	<th></th>
-	    <th>1</th> 
+	    <th>5</th> 
 	  </tr>
 	  <tr>
 	    <th>Status : </th>
 	    <th></th>
-	    <th><font color="green">PASS</font></th> 
+	    <th><font color="red">FAIL</font></th> 
 	  </tr>
 	</table>
 </div>
@@ -109,24 +109,133 @@
 				
 				
 												
-				
+											<tr>
+	<td class="time">1694115316263</td>
+	<td class="header failed" colspan="4" onClick="toggleElement('052aa6bd-6794-4fca-b64b-15d972fcb5a1','block');changeSingleIcon('span-052aa6bd-6794-4fca-b64b-15d972fcb5a1');" title="Click to expand/collapse" style="cursor: pointer;">
+	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.etsy.features.SearchResultFilteringTest</div>
+	<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-052aa6bd-6794-4fca-b64b-15d972fcb5a1' class="glyphicon glyphicon-menu-down"></span></div>
+	</td>
+	</tr>
+<tr>
+	<td class="time">1694115316263</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>searchResultPriceFitPriceRangeAfterFiltering</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>5.084s</span><br>
+	</td>
+	<td class="result">
+						<div class="noCollapse" id="052aa6bd-6794-4fca-b64b-15d972fcb5a1" style="display: block;">
+						<a href="javascript:toggleElement('exception-052aa6bd-6794-4fca-b64b-15d972fcb5a1','block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [true] but found [false]</b></a><br/>
+		<div class="stackTrace" id="exception-052aa6bd-6794-4fca-b64b-15d972fcb5a1">
+					org.testng.Assert.fail(Assert.java:111)<br/>
+					org.testng.Assert.failNotEquals(Assert.java:1578)<br/>
+					org.testng.Assert.assertTrue(Assert.java:57)<br/>
+					org.testng.Assert.assertTrue(Assert.java:67)<br/>
+					pl.globallogic.etsy.features.SearchResultFilteringTest.searchResultPriceFitPriceRangeAfterFiltering(SearchResultFilteringTest.java:24)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:578)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br/>
+					com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						
 				
 												<tr>
-			<td class="time">1693489095327</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('13188b68-71ff-4fd0-8e5d-99867bd5fb96','block');changeSingleIcon('span-13188b68-71ff-4fd0-8e5d-99867bd5fb96');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.etsy.features.SearchFeatureVerificationTest</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-13188b68-71ff-4fd0-8e5d-99867bd5fb96' class="glyphicon glyphicon-menu-down"></span></div>
+			<td class="time">1694115298252</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('37426746-a126-4b1e-8f62-55bedd97dab1','block');changeSingleIcon('span-37426746-a126-4b1e-8f62-55bedd97dab1');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.etsy.features.SearchResultFilteringTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-37426746-a126-4b1e-8f62-55bedd97dab1' class="glyphicon glyphicon-menu-down"></span></div>
 			</td>
 			</tr>
 			<tr>
-	<td class="time">1693489095327</td>
+	<td class="time">1694115298252</td>
 	<td class="methodTest">
-		<span class="description"><b>Method: </b>shouldDisplayNotFoundPageForInvalidQuery</span><br>
+		<span class="description"><b>Method: </b>filteredShippingCountryShouldBePresentInShippingDestinationOptions</span><br>
 			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>5.047s</span><br>
+							<span class="duration"><b>Duration: </b>4.644s</span><br>
 	</td>
 	<td class="result">
-						<div class="stackTrace" id="13188b68-71ff-4fd0-8e5d-99867bd5fb96" style="display: block;">
+						<div class="stackTrace" id="37426746-a126-4b1e-8f62-55bedd97dab1" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694115304844</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('b3933384-411d-4cc5-98fb-9be5c4281e94','block');changeSingleIcon('span-b3933384-411d-4cc5-98fb-9be5c4281e94');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.etsy.features.SearchResultFilteringTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-b3933384-411d-4cc5-98fb-9be5c4281e94' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694115304844</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>freeShippingTagNeedToBePresentAfterFiltering</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>2.501s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="b3933384-411d-4cc5-98fb-9be5c4281e94" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694115293432</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('00bf5490-8dfd-40c2-9e86-1c7a1e6ebf48','block');changeSingleIcon('span-00bf5490-8dfd-40c2-9e86-1c7a1e6ebf48');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.etsy.features.SearchResultFilteringTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-00bf5490-8dfd-40c2-9e86-1c7a1e6ebf48' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694115293432</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>filteredColorSelectionOptionShouldBeAvailableInItemDetailsView</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>2.905s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="00bf5490-8dfd-40c2-9e86-1c7a1e6ebf48" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694115309162</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('5b72401a-1190-42c7-bf55-47a6a6626f14','block');changeSingleIcon('span-5b72401a-1190-42c7-bf55-47a6a6626f14');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.etsy.features.SearchResultFilteringTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-5b72401a-1190-42c7-bf55-47a6a6626f14' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694115309162</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>searchResultPageContentNotChangedIfFilterApplicationCanceled</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>5.377s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="5b72401a-1190-42c7-bf55-47a6a6626f14" style="display: block;">
 					</td>
 	</div>
 </tr>
